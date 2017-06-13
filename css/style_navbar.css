@@ -1,0 +1,63 @@
+
+/* 
+    Created on : 4/02/2016, 08:24:34 AM
+    Author     : Ivonne C. Barco
+*/
+body{
+    font-family: 'Sansita', sans-serif;
+    font-size: 1.4em;
+    margin-top: 1px;
+}
+
+h1{ /*estilo para los todos los h1*/
+	text-align: center;
+	color: #A31305;
+	background-color: white;
+	border-bottom: 1px brown dotted;
+	text-shadow: 1px 1px 4px #61380B
+
+}
+
+nav{ /*estilo para el menu*/
+	text-align: center;
+   
+   
+}
+
+nav:hover{
+	color: red;
+}
+
+hr{ /*estilo para los hr*/
+
+}
+
+a.nav-link{ /*estilo para los vinculos*/
+	display: inline-block; /* display: para mostrar las cosas en bloque, sea horizontal (inline-block) o verticar (block)*/
+    width: 170px;
+    height: 40px;
+    background-color: #0A5815;
+    color: white;
+    border: 2px white solid; /* grosor color estilo\ : border-left, border-button, border-right, border-top*/
+    line-height: 40px; /* alinear el texto verticalmente*/
+    text-decoration: none;   /* para que el texto no se subraye cuando se activa el ahref*/
+    box-shadow: 3px 3px 4px silver; /*parametros: ejex ejey difuminado color */
+    margin: 0px; /* margen entre cada elemento*/
+    padding: 0px; /* margen interna */
+    cursor: pointer;
+}
+
+a.nav-link:hover{ /*hover: efecto que se ejecutaria cuando se pase el cursor por el elemento*/
+	color: white;
+	font-size: 1em;
+    background-color: #188019;
+}
+
+h4{
+	text-align: center;
+}
+
+h2{
+    text-align: center;
+    text-shadow: 1px 1px 4px #61380B;
+}

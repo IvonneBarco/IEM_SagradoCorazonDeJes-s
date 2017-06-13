@@ -1,0 +1,475 @@
+/*--------Configurar las márgenes de la página*/
+@import url('https://fonts.googleapis.com/css?family=Sansita');
+*{
+margin-left: 4%;
+margin-right: 5%;
+margin-top: 4px;
+margin-bottom: 2px;
+/*margen superior, izquierda, derecha*/
+padding: 2px;
+}
+/*estilo para el contenedor div*/
+.contenedor{
+width: 100%;
+max-width: 1000px;
+min-width: 200px;
+/*margin: 0 auto*/
+background: #FFFFFF;
+overflow: hidden;
+box-sizing: border-box;
+-moz-box-shadow:0 0 5px 5px #AEACAC;
+-webkit-box-shadow:0 0 5px 5px #AEACAC;
+/*-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+*/
+}
+/*configurar estilo para el body*/
+body{
+
+}
+/*Estilo cabecera
+#cabecera{
+float:center;
+padding:1%;
+width: 92%;
+/* para redondear los bordes */
+/*-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+/*para colocar sombra */
+/*-moz-box-shadow: rgb(201,210,213) 5px 3px 20px ;
+/*-webkit-box-shadow: rgb(201,210,213) 5px 3px 20px ;
+/* para colocar gradiente */
+/*background: -webkit-linear-gradient(top, #1A4C0A, #90EE90);
+background: -moz-linear-gradient(top,  #1A4C0A, #90EE90);
+margin-left: 3%;
+}*/
+/*Estilo banner*/
+#banner{
+margin:0 auto;
+margin-left:-7%;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+width: 115%;
+max-width:115%;
+min-width:40%;
+height:50%;
+/*border: 1px solid #1A1A1A;*/
+}
+/*--estilo parrafo article presentacion lo actualice--*/
+article p{
+text-align: justify;
+font-family: Verdana, Arial, Helvetica,sans-serif;
+line-height: 140%;
+font-size:90%;
+}
+article h1{
+font-family:Georgia, "Times New Roman", Times, serif;
+color: #104312;
+font-style: italic;
+}
+
+/* estilo para el article del aside del contador*/
+aside .contador{
+background:#FFFFFF;
+border-radius: 2px;
+padding: 4px;
+text-align:left;
+box-shadow:3px 3px 4px 4px  #4D4D4D;
+
+}
+
+aside .contador h4{
+text-align:center;
+background-color:#11550B;
+border-radius: 2px;
+color: #FFFFFF;
+text-shadow: 1px 1px 0px #2D2D29;/*propiedaad para sombra texto*/
+font-size: 100%;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+aside .contador hr{ 
+ border: 0; height: 10px; box-shadow: inset 0 12px 12px -12px #4D4D4D; /*borde en degradado para la linea*/
+ /*border-top: 1px dashed grey; height: 0; borde punteado*/
+ } 
+ #imgprae{
+ width:80%;
+ border-radius: 4px;
+ }
+/*----estilo para los menús laterales---*/
+.contador li a{
+text-decoration:none;
+}
+
+/*----------------------*/
+/*Estilo seccion1*/
+/*.contenido{
+margin-top:0.2em;
+width:100%;
+height: auto;
+margin-left: 1%;
+background:#FFFFFF;
+/*background: -webkit-linear-gradient(#E6E6FA, white);
+background: -moz-linear-gradient(#E6E6FA, white);
+background: -o-linear-gradient(#E6E6FA, white);*/
+/*border-radius: 5px;
+}*/
+
+  
+
+/*estilo para el aside*/
+/*aside{
+width:100%;
+padding: 20px;
+box-sizing: border-box;
+margin-left:0%;
+margin-top:0%;
+}*/
+
+/*----------------------------------------------------------------*/
+#menuizquierda ul{
+background:#FFFFFF;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+/*para colocar sombra */
+-moz-box-shadow: rgb(150,150,150) 5px 5px 10px ;
+-webkit-box-shadow: rgb(150,150,150) 5px 5px 10px ;
+}
+
+/*----------------------------------------------------------------*/
+#menuizquierda{
+float:left;
+font: bold 14px arial;
+width:22%;
+height:60%;
+/*padding:2%;*/
+/*margin:40%;*/
+/* para redondear los bordes */
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+/*para colocar sombra */
+-moz-box-shadow: rgb(150,150,150) 5px 5px 10px ;
+-webkit-box-shadow: rgb(150,150,150) 5px 5px 10px ;
+/* para colocar gradiente */
+background:-webkit-linear-gradient(top, #1A4C0A, #90EE90);;
+}
+/*----------------------*/
+#menuizquierda li{
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+text-align: center;
+}
+
+/*-----------------------------------------*/
+#puno{
+text-align: justify; 
+font-size: 100%;
+}
+
+/*----estilo para el encabezado h1 de la página de inicio----*/
+#titulo1{
+text-align: center; 
+font-size: 150%;
+/*font-style: italic;*/
+font: arial;
+}
+/*----------------------------*/
+footer{
+color:#FFFFFF;
+background: #0F5D15;
+font: italic 14px times new roman;
+text-align: center;
+padding:1.2em;
+margin:0;
+clear:both;
+height:150px;
+/*height:100px;*/
+/*-moz-border-radius: 8px;
+-webkit-border-radius: 8px;*/
+}
+/*estilo párrafo footer*/
+footer p{
+text-align: center;
+line-height:120%;
+}
+/* estilo para las imagenes del footer */
+ footer .fimg1{
+	float: left;
+	padding: 0;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	width: 14%;
+
+ }
+ footer .fimg1 img{
+width:100%;
+border-radius: 6px;
+-webkit-box-shadow: -5px -5px 5px #888;
+-moz-box-shadow:-5px -5px 5px #888;
+box-shadow: -5px -5px 5px #888;
+/*transiciones*/
+-webkit-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+}
+/*efecto para que las imágenes de footer se muevan*/
+footer .fimg1 img:hover{
+-webkit-transform: rotate(-7deg);
+-moz-transform: rotate(-7deg);
+-ms-transform: rotate(-7deg);
+transform: rotate(-7deg);
+}
+
+/*--------Estilo para el article de la misión-----*/
+#mision{
+background:-webkit-linear-gradient(top,#C3DAEC,#54B0EA);
+margin-top: 20px;
+margin-left: 28%;
+height: 60%;
+width:60%;
+border-radius: 5px;
+-moz-box-shadow: rgb(150,150,150) 5px 5px 10px ;
+-webkit-box-shadow: rgb(150,150,150) 5px 5px 10px ;
+color: #172773;
+font-family: georgia 12px;
+text-align:justify; 
+}
+#vision{
+background:-webkit-linear-gradient(top,#C3DAEC,#54B0EA);
+margin-top: 20px;
+margin-left: 28%;
+height: 60%;
+width:60%;
+border-radius: 5px;
+-moz-box-shadow: rgb(150,150,150) 5px 5px 10px ;
+-webkit-box-shadow: rgb(150,150,150) 5px 5px 10px ;
+color: #172773;
+font-family: georgia 12px;
+text-align:justify; 
+}
+#valores{
+background:-webkit-linear-gradient(top,#C3DAEC,#54B0EA);
+margin-top: 20px;
+margin-left: 28%;
+height: 60%;
+width:60%;
+border-radius: 5px;
+-moz-box-shadow: rgb(150,150,150) 5px 5px 10px ;
+-webkit-box-shadow: rgb(150,150,150) 5px 5px 10px ;
+color: #172773;
+font-family: georgia 12px;
+text-align:justify; 
+}
+#principios{
+background:-webkit-linear-gradient(top,#C3DAEC,#54B0EA);
+margin-top: 20px;
+margin-left: 28%;
+height: 60%;
+width:60%;
+border-radius: 5px;
+-moz-box-shadow: rgb(150,150,150) 5px 5px 10px ;
+-webkit-box-shadow: rgb(150,150,150) 5px 5px 10px ;
+color: #172773;
+font-family: georgia 12px;
+text-align:justify; 
+}
+#prin{
+border-radius: 10px;
+-moz-box-shadow: rgb(150,150,150) 5px 5px 10px ;
+-webkit-box-shadow: rgb(150,150,150) 5px 5px 10px ;
+}
+
+#imagen{
+margin:6px;
+background:-webkit-linear-gradient(top,#C3DAEC,#54B0EA);
+margin-left: 33%;
+margin-right: 5%;
+margin-top: 50px;
+margin-bottom:10px;
+padding:15px;
+width:60%;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+/*para colocar sombra */
+-moz-box-shadow: rgb(150,150,150) 5px 5px 10px ;
+-webkit-box-shadow: rgb(150,150,150) 5px 5px 10px ;
+}
+
+#parrafo1{
+text-align:center;
+}
+#img{
+border-radius: 8px;
+border:3px solid #171B2F;
+width: 500px;
+height: 300px;
+}
+
+#calendario1{
+width:90%;
+}
+.imagenpie{
+width: 30%;
+height: 40%;
+}
+
+@media screen and (max-width:200px){
+#info{
+width: 100%;
+}
+#menuizquierda{
+width: 100%;
+}
+}
+
+/*-----------estilo para aside lateral ---------------*/
+.lateral{
+width: 24%;
+max-width: 400px;
+min-width: 100px;
+margin: 0 auto;
+/*background: #FFFFFF;*/
+overflow: hidden;
+box-sizing: border-box;
+/*-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+-moz-box-shadow: rgb(201,210,213) 5px 3px 10px ;
+-webkit-box-shadow: rgb(201,210,213) 5px 3px 10px ;*/
+margin-right: 72%;
+background:-webkit-linear-gradient(top,#C3DAEC,#54B0EA);
+margin-top: 10%;
+border-radius: 5px;
+}
+
+/*-----estilo para la tabla del calendario ---------*/
+/*.table-container
+{
+    width: 100%;
+    overflow-y: auto;
+    _overflow: auto;
+    margin: 0 0 1em;
+}*/
+
+/*----------estilo para el article de la pag de comentarios----------*/
+.comentarios{
+margin-left: 6%;
+height: auto;
+width:90%;
+margin-top:-8%;
+box-sizing: border-box;
+background: -webkit-linear-gradient(white, #FBF5C2);
+background: -moz-linear-gradient(white, #FBF5C2);
+background: -o-linear-gradient(white, #FBF5C2);
+border-radius: 5px;
+-moz-box-shadow: rgb(150,150,150) 5px 5px 10px ;
+-webkit-box-shadow: rgb(150,150,150) 5px 5px 10px ;
+}
+
+/*-----------estilo para la barra de búsqueda-----------------*/
+button{
+color: #FFFFFF;
+border: solid;
+border-width: 1px;
+border-color: #158E48;
+cursor: pointer;
+width: 20%;
+height: 40%;
+border-radius: 8px;
+background:#0F5D15;
+}
+#buscar{
+margin-left:54%;
+}
+
+input[type='search']{
+width: 50%;
+border: 1px solid #105716;
+box-shadow:0 0 0 2px #9EE9A4;/*coloca sombra al botón*/
+padding: 8px 16px;
+border-radius: 8px;
+font-weight: bold;
+text-shadow: 1px 1px 0px white;
+
+}
+
+/*------------estilo tabla docentes---------------------*/
+.table-container
+{
+    width: 100%;
+    overflow-y: auto;
+    _overflow: auto;
+    
+}
+
+.table-container::-webkit-scrollbar
+{
+-webkit-appearance: none;
+width: 14px;
+height: 14px;
+}
+ 
+.table-container::-webkit-scrollbar-thumb
+{
+border-radius: 8px;
+border: 3px solid #fff;
+background-color: rgba(0, 0, 0, .3);
+}
+
+.table-container table{
+border-radius: 8px;
+float:center;
+background:#FFFFFF;
+width:96%;
+height:70px;
+text-align: center;
+padding:0px;
+margin-left: 3%;
+margin-right: 0%;
+margin-top:10px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 8px;
+}
+
+.table-container th{
+background:-webkit-linear-gradient(top, #1e7708,#6bc50e);
+color:#FFFFFF;
+text-align:center;
+}
+
+.table-container tr, th, td{
+padding: 4px;
+/*border: 1px solid #105716;*/
+}
+.table-container tr, td{
+/*border-radius: 18px;*/
+font-family: 'Sansita', sans-serif;
+font-size: 1em;
+}
+
+.table-container td img{
+border-radius: 6px;
+box-shadow: 0 0 5px #888;
+}
+
+/*article .info1 h3{
+background:#FFFFFF;
+}*/
+
+/*-----------Estilo para sección en proyectos------------------*/
+article #proyecto1{
+background:#FFFFFF;
+width: 90%;
+padding: 0px;
+height: 40%;
+border: 1px solid #105716;
+border-radius: 8px;
+box-shadow:1px 1px 2px 2px #BFBFBF;
+}
+
+/*-----------Estilo para imagen face aside--------------*/
+.contador img #face:hover{
+background: url(imagenes/face1.gif) no-repeat;
+  height: 28px;
+ 
+}
+

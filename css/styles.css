@@ -1,0 +1,494 @@
+*{
+	font-family: 'Sansita', sans-serif;
+	font-size: 1.6rem;
+}
+
+/* ---- Fonts ----*/
+.sansita{
+	
+	font-family: 'Sansita', sans-serif;
+}
+
+.candal{
+	font-family: 'Candal', sans-serif;
+}
+
+
+/*------------------------------------------------*/
+
+/*---- Colors ---- */
+.royalPurple{
+	color: #5C97FC; 
+}
+
+.cyan{
+	color: #33CDF5;
+}
+
+.brickRed{ 
+	color: #A31305;
+}
+
+.oliveGreen{
+	color: #0A5815;
+}
+
+.limeGreen{
+	color: #188019;
+}
+.blue{
+	color: #120fa0;
+}
+
+/*------------------------------------------------*/
+
+/*---- Sombras ---- */
+.shadow-brickRed{
+	text-shadow: 1px 3px 2px #d2d2d2, 0 0 25px #f56e6e, 0 0 5px darkred;
+}
+
+.shadow-LimeGreen{
+	text-shadow: 1px 3px 2px #7bd696, 0 0 25px #70c17b, 0 0 15px #25880e;
+}
+
+.shadow-RoyalPurple{
+	text-shadow: 1px 3px 2px #5f5fda, 0 0 25px #cf84ff, 0 0 22px #5c97fc;
+}
+
+.shadow-blue{
+	text-shadow: 1px 3px 2px #d2d2d2, 0 0 25px #81abea, 0 0 10px #120fa0;
+}
+
+/*------------------------------------------------*/
+
+/*---- Lineas ---- */
+
+.line-1{ /*brickRed lg*/
+	border-top: 5px solid #a31305;
+	border-style: double;
+	margin-bottom: 0px;
+}
+
+.line-2{ /*RoyalPurple*/
+	width: 400px;
+    border-top: 8px solid #5c97fc;
+    border-style: double;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.line-3{ /*LimeGreen*/
+	width: 400px;
+    border-top: 8px solid #188019;
+    border-style: double;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.line-3b{ /*LimeGreen*/
+    border-top: 8px solid #188019;
+    border-style: double;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+/*----- Spaces and margins ------*/
+.space-right{
+	margin-right: 1em;
+}
+
+.space-top{
+	margin-top: 100px;
+}
+
+/*------------------------------------------------*/
+
+/* ---- Style scroll ---- */
+
+.scrollup{
+	z-index: 5;
+    width:40px;
+    height:40px;
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    display:none;
+}
+
+/* --------------------------------------------- */
+
+/* ---- NavBar ---- */
+.navbar-cs{
+	background: #0a5815;
+	border-color: #DDD;
+	color: #ffffff; 
+}
+
+.navbar-inverse .navbar-brand{
+	color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover{ /*BOTÃ“N INICIO*/
+	color: #ffffff;
+	background: #188019;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{	/*HOVER NAVBAR*/
+	background: #188019;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+	background: #188019;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+	background-color: #188019;
+	border-color: #188019;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover{ /* FUENTE SUB-QUIENES SOMOS*/
+	/*color: #FFFFFF;*/
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a{ 
+	/*color: #FFFFFF; */
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+	border-color: #FFFFFF;
+}
+
+#btn_buscar{
+	background-color: #188019;
+	border-color: #02542C;
+	height: 35px;
+}
+
+#btn_buscar:hover {
+    color: #fff;
+    background-color: #188019;
+    border-color: #0a5815;
+}
+
+#sub:hover{
+	background: #188019;
+	color: white;
+	height: 10%;
+}
+/* --------------------------------------------- */
+
+/* ---- post elements ----*/
+.post{ /* line */
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #999;
+}
+
+.post .thumb{
+	margin-right: 10px;
+	width: 40%;
+}
+
+.post .thumb img{
+	width: 100%;
+}
+
+.post .contenedor-botones{
+	width: 100%;
+}
+
+/* --------------------------------------------- */
+
+/* ---- Panels ----*/
+.panel-primary {
+    border-color: #0a5815;
+}
+
+
+.panel-body {
+    padding: 0px;
+}
+
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: #0a5815;
+    border-color: #0a5815;
+}
+
+/* --------------------------------------------- */
+
+
+/* ---- Footer ----*/
+#logos{
+	margin: auto;
+	width: 80%;
+	height: 80%;
+}
+
+.logo{
+	width: 50%;
+	height: 50%;
+	margin: auto;
+}
+
+#divFooter{
+	font-family: segoe ui,Arial,sans-serif;
+	font-size: 16px;
+}
+
+.contac{
+	margin-top: 10%;
+	margin-left: 10%;
+}
+
+.map{
+	margin-top: 3%;
+}
+
+.copy{
+	background: #0a5815;
+	color: white;	
+}
+
+.logo{
+	width: 50%;
+	height: 50%;
+	margin: auto;
+	margin-top: 2%
+}
+/* --------------------------------------------- */
+
+/* ---- Aside ---- */
+
+.list-group-item{
+
+	border: 1px solid #0a5815;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
+	background-color: #0a5815;
+	border: 1px solid #0a5815;
+}
+
+.enlaces{
+	margin: auto;
+	width: 100%;
+	height: 100%;
+}
+
+a.list-group-item, button.list-group-item {
+    color: #A31305;
+    box-shadow: inset 0 12px 12px -12px #4D4D4D
+}
+
+a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover {
+    color: #A31305;
+    text-decoration: none;
+    background-color: #f5f5f5;
+}
+/* --------------------------------------------- */
+
+/* ---- ETIQUETAS ---- */
+
+a{
+	color: #7ac17d;
+}
+
+a:hover{
+	color: #0A5815;
+	border-collapse: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Candal', sans-serif;
+
+}
+
+/*------------- FORMS -----------------*/
+.form-container{
+	background:#FFFFFF;
+	padding-left:16px;
+	padding-top: 6px;
+	padding-bottom:6px;
+	box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset; 
+	border-radius: 4px;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/*				ESTULOS ADMINISTRADOR: 					   */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.tittle-admin{
+	background: #0A5815;
+	color: #ffffff;
+	height: 20%;
+	vertical-align: center;
+}
+
+.logo-admin{
+	width: 30%;
+	height: 30%;
+	vertical-align: middle;
+	margin-left: 50%
+}
+
+.margin-admin{
+	text-align: right;
+}
+
+
+.ok{
+	color: green;
+	font-family: 'Candal', sans-serif;
+	text-align: center;
+}
+
+.bad{
+	color: red;
+	font-family: 'Candal', sans-serif;
+	text-align: center;
+}
+
+.img-icono{
+	height: 30%;
+	margin-top: 0px;
+}
+
+
+
+/* +++++++++++++++++ TABLAS +++++++++++++++++++++ */
+.table-center{
+	display: inline-block;
+}
+
+/* +++++++++++++++++ FORMULARIOS +++++++++++++++++++ */
+.size-font-form{
+	font-size:1.1em
+}
+
+
+/***************************TABLA CON SCROLL**********************************/
+
+/* Css especÃ­fico del efecto */ 
+div.contienetabla, div.contienetabla2 { 
+height: 65%; 
+overflow: auto; 
+overflow-y: auto; 
+overflow-x: hidden; 
+width: 95%;
+} 
+ 
+table.mi-table { 
+color: black; 
+table-layout: fixed; 
+width: 800px; 
+border-collapse: collapse;	
+}
+ 
+table.titulo { 
+width: 95%; 
+text-align: center;
+vertical-align: middle;
+} 
+ 
+.td-th{ 
+	border: 1px solid black; 
+	padding-bottom: 8px;
+	padding-top: 8px; 
+	white-space: pre; /* CSS 2.0 */ 
+	white-space: pre-wrap; /* CSS 2.1 */ 
+	white-space: pre-line; /* CSS 3.0 */ 
+	white-space: -pre-wrap; /* Opera 4-6 */ 
+	white-space: -o-pre-wrap; /* Opera 7 */ 
+	white-space: -moz-pre-wrap; /* Mozilla */ 
+	white-space: -hp-pre-wrap; /* HP */ 
+	word-wrap: break-word; /* IE 5+ */ 
+	text-align: center;
+} 
+ 
+tr.header { 
+	background-color: #33CDF5; /*33CDF5#5C97FC*/
+	text-align: center; 
+	vertical-align: middle;
+	color: #fff;
+} 
+ 
+/* extendemosel ancho para .contiene_tabla2 
+para colocar el scroll por fuera */ 
+div.contienetabla2 { 
+width: 715px; 
+} 
+ 
+/* Fix para listas */ 
+div.contienetabla ul li, div.contienetabla2 ul li{ 
+list-style-type: square; 
+list-style-position: inside; 
+}
+
+.table-head-search{
+	background: aliceblue;
+	text-align: center;
+}
+
+/*Comentarios*/
+.comentario{
+	padding: 0px;
+}
+
+.icon-max{
+	font-size: 1.9em;
+    color: #169828;
+}
+
+/* --------------------------------------------- */
+
+/* ---- PAGINAS CLIENTE ---- */
+
+.table-text{
+	font-size: 1.3em;
+}
+
+.img-border{
+	border: 10px solid #ddd;
+    border-radius: 25px;
+    box-shadow: 1px 3px 2px #d2d2d2, 0 0 25px #f56e6e, 0 0 5px darkred;
+}
+
+.img-border-green{
+	border: 10px solid #ddd;
+    border-radius: 25px;
+    box-shadow: 1px 3px 2px #7bd696, 0 0 25px #70c17b, 0 0 15px #25880e;   
+}
+
+/* --------------------------------------------- */
+.img-hover:hover{
+	background-image: url('../images/icon-mod-322.png');
+}
+
+.img2-hover:hover{
+	background-image: url('../images/icon-user-delete-322.png');
+}
+
+/* -----------------ANIMACIONES---------------------------- */
+.retraso1{
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	animation-delay: 1s;
+}
+
+
+.retraso2{
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	animation-delay: 2s;
+}
+
+.retraso2{
+	-webkit-animation-delay: 3s;
+	-moz-animation-delay: 3s;
+	animation-delay: 3s;
+}

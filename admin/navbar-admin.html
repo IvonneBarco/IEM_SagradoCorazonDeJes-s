@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="description" content="Bienvenidos al sitio web de la Institución Educativa Sagrado Corazón de Jesús, ubicada en El Ingenio - Sandoná - Nariño. Queremos mostrar nuestra labor academica, nuestras actividades y los servicios que ofrecemos a nuestros estudiantes, niños, niñas y joves que son el futuro de una mejor sociedad.">
+	<meta name="keywords" content="institucion-educativa-sagrado-corazon-de-jesus, corazon-de-jesus, el-ingenio, sandoná, nariño, estudiantes, formación, colombia, corregimiento, colombiaaprende, academia, educacion, primaria, secundaria, bachillerato">	
+
+	<link href="https://fonts.googleapis.com/css?family=Candal" rel="stylesheet"> <!-- Font titles-->
+	<link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet"> <!-- Font body-->
+
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/styles.css">
+	<link rel="stylesheet" href="../css/jquery-ui.css">
+	<link rel="stylesheet" href="../css/social.css">
+	<link rel="stylesheet" href="../css/animate.css">
+
+	<script src="../js/jquery.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/jquery-ui.js"></script>
+	<script src="../js/jquery.slides.js"></script>
+	<script src="../js/jquery.ui.datepicker-es.js"></script>
+	<script src="../js/codigo.js"></script>
+
+	<title>.:: Institución Educativa Sagrado Corazón de Jesús</title>
+	<link rel="shortcut icon" href="../images/mifavicon.ico"/>
+	<a href="#" class="scrollup"><img src="../images/icon_top.png" alt=""></a>
+</head>
+<body>
+
+	<!-- Barra Redes Sociales -->
+	<div class="social hidden-xs">
+		<ul>
+			<li id="facebook">
+				<a href="https://www.facebook.com/carnavaldenegrosyblancossandona/" target="_black" id="facebook" class="facebook">
+					<img src="../images/facebook.png" alt="facebook" id="facebook">
+				</a>
+			</li>
+			<li id="twitter">
+				<a href="https://twitter.com/?lang=es" target="_black" id="twitter" class="twitter">
+					<img src="../images/twitter.png" alt="twitter" id="twitter">
+				</a>
+			</li>
+			<li id="youtube">
+				<a href="https://www.youtube.com" target="_black" id="youtube" class="youtube">
+					<img src="../images/youtube.png" alt="youtube" id="youtube">
+				</a>
+			</li>
+			<li id="googleplus">
+				<a href="https://plus.google.com/collections/featured" target="_black" id="googleplus" class="googleplus">
+					<img src="../images/googleplus.png" alt="googleplus" id="googleplus">
+				</a>
+			</li>
+		</ul>	
+	</div>
+	<!-- Fin Barra Redes Sociales -->
+
+	<header>
+		<!-- cabecera -->
+		<section class="img-responsive">
+			<img src="../images/bg_header.jpg" class="img-responsive" alt="cabecera" id="cabecera">
+		</section>
+
+		<!-- fin cabecera -->
+
+		<!-- Inicia Navbar-->
+		<nav class="navbar navbar-inverse navbar-static-top navbar-cs" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion-cs">
+						<span class="sr-only">Desplegar/Ocultar menu</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand hidden-lg hidden-sm" id="titulo"><span class="glyphicon glyphicon-heart-empty "></span> IESCJ Sandoná - Nariño</a>
+				</div>
+				<!-- Inicia Menú-->
+					<div class="collapse navbar-collapse" id="navegacion-cs">
+						<ul class="nav navbar-nav margin-nav navbar-left">
+							<li class="active"><a href="administracion.php"><span class="glyphicon glyphicon-home" id="icono"></span> Inicio</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><span class="glyphicon glyphicon-pencil" id="icono"></span> Registrar <span class="caret"></span></a> 
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="registroDocente.php" id="sub">Docentes</a></li>
+									<li class="divider"></li>
+									<li><a href="registroUsuario.php" id="sub">Usuario</a></li>
+									<li class="divider"></li>
+									<li><a href="registroNoticia.php" id="sub">Noticias</a></li>
+									<li class="divider"></li>
+									<li><a href="registroContacto.php" id="sub">Contactos</a></li>
+									<li class="divider"></li>
+									<li><a href="registroEstudiante.php" id="sub">Estudiantes</a></li>
+									<li class="divider"></li>
+									<li><a href="registroCertificados.php" id="sub">Certificados</a></li>
+									<li class="divider"></li>
+									<li><a href="registroEventos.php" id="sub">Eventos</a></li>
+									<li class="divider"></li>
+									<li><a href="adminComentarios.php" id="sub">Administrar Comentarios</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><span class="glyphicon glyphicon-search" id="icono"></span> Consultar <span class="caret"></span></a> 
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="consultarDocente.php" id="sub">Docentes</a></li>
+									<li class="divider"></li>
+									<li><a href="consultarUsuario.php" id="sub">Usuario</a></li>
+									<li class="divider"></li>
+									<li><a href="consultarContacto.php" id="sub">Contactos</a></li>
+									<li class="divider"></li>
+									<li><a href="consultarEstudiante.php" id="sub">Estudiantes</a></li>
+									<li class="divider"></li>
+									<li><a href="consultarCertificados.php" id="sub">Certificados</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><span class="glyphicon glyphicon-edit" id="icono"></span> Editar <span class="caret"></span></a> 
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="editarDocente.php" id="sub">Docentes</a></li>
+									<li class="divider"></li>
+									<li><a href="editarUsuario.php" id="sub">Usuario</a></li>
+									<li class="divider"></li>
+									<li><a href="editarContacto.php" id="sub">Contactos</a></li>
+									<li class="divider"></li>
+									<li><a href="editarEstudiante.php" id="sub">Estudiantes</a></li>
+									<li class="divider"></li>
+									<li><a href="editarCertificados.php" id="sub">Certificados</a></li>
+									<li class="divider"></li>									
+									<li><a href="editarNoticias.php" id="sub">Noticias</a></li>
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><span class="glyphicon glyphicon-list-alt" id="icono"></span> Listar <span class="caret"></span></a> 
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="verDocentes.php" id="sub">Docentes</a></li>
+									<li class="divider"></li>
+									<li><a href="verUsuarios.php" id="sub">Usuario</a></li>
+									<li class="divider"></li>
+									<li><a href="verContacto.php" id="sub">Contactos</a></li>
+									<li class="divider"></li>
+									<li><a href="verEstudiantes.php" id="sub">Estudiantes</a></li>
+									<li class="divider"></li>
+									<li><a href="verCertificado.php" id="sub">Certificados</a></li>
+									<li class="divider"></li>									
+									<li><a href="verNoticias.php" id="sub">Noticias</a></li>
+									<li class="divider"></li>									
+									<li><a href="verComentarios.php" id="sub">Comentarios</a></li>
+								</ul>
+							</li>
+							<li><a href="generarReporte.php"><span class="glyphicon glyphicon-modal-window" id="icono"></span> Certificados </a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"><span class="glyphicon glyphicon-cog" id="icono"></span> Admin. Web <span class="caret"></span></a> 
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="adminMision.php" id="sub">Administrar Misión</a></li>
+									<li class="divider"></li>
+									<li><a href="adminVision.php" id="sub">Administrar Visión</a></li>
+									<li class="divider"></li>
+									<li><a href="adminPrincipios.php" id="sub">Admiistrar Principios</a></li>
+									<li class="divider"></li>
+									<li><a href="adminObjetivos.php" id="sub">Administrar Objetivos</a></li>
+									<li class="divider"></li>
+									<li><a href="adminValores.php" id="sub">Administrar Valores</a></li>
+									<li class="divider"></li>								
+									<li><a href="adminResenia.php" id="sub">Adminstrar Reseña</a></li>
+									<li class="divider"></li>	
+									<li><a href="adminSimbolos.php" id="sub">Administrar Símbolos</a></li>
+									<li class="divider"></li>
+									<li><a href="adminSedeAphp" id="sub">Admiistrar Sede Alto Ingenio</a></li>
+									<li class="divider"></li>
+									<li><a href="adminSedeB.php" id="sub">Administrar Sede Bohorques</a></li>
+									<li class="divider"></li>
+									<li><a href="adminSedeS.php" id="sub">Administrar Sede San Antonio</a></li>
+									<li class="divider"></li>								
+									<li><a href="adminProyectos.php" id="sub">Adminstrar Proyectos</a></li>
+								</ul>
+							</li>
+						</ul>
+						<ul class="nav navbar-nav margin-nav navbar-right">
+							<form action="http://www.google.com/custom" class="navbar-form margin-form" role="search">
+							<div class="form-group">
+								<input type="text" class="form-control" id="buscar" placeholder="Buscar en este sitio">
+								<button type="button" class="btn btn-primary" id="btn_buscar">
+								<span class="glyphicon glyphicon-search"></span>
+								</button>
+								<input type="hidden" name="sitesearch" value="www.udenar.edu.co"/>
+							</div>
+						</form>
+						</ul>
+					</div>
+				<!-- Finaliza Menú-->
+			</div>
+			
+		</nav>
+		<!-- Finaliza Navbar-->
+	</header>
